@@ -559,7 +559,7 @@ def main():
     set_mount_options()
     ensure_sticky_bit()
     disable_automounitng()
-    enable_aide()
+#    enable_aide()
     secure_boot_settings()
     apply_process_hardenings()
     configure_warning_banners()
